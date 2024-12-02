@@ -81,3 +81,10 @@ git stash pop
 git stash list
 
 ```
+
+### 11. Revert Commit
+```
+git log --online
+git revert [COMMIT_TD]
+
+```
