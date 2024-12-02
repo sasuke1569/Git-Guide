@@ -96,3 +96,24 @@ git log --online
 git cherry-pick [COMMIT ID]
 
 ```
+
+### 13. Reset Commit
+```
+
+git log --online
+git reset --soft HEAD~1
+```
+
+### 14. Create Patch
+```
+
+git diff HEAD > diff.patch
+
+```
+
+### 15. Apply Patch
+```
+
+git aplly > diff.patch
+
+```
