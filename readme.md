@@ -113,7 +113,15 @@ git diff HEAD > diff.patch
 
 ### 15. Apply Patch
 ```
-
 git aplly > diff.patch
 
 ```
+
+### 16. Init GitHub
+```
+git remote add origin [REMOTE-URL]
+git push -u origin master 
+git push origin --all
+
+```
+
