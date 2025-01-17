@@ -102,6 +102,11 @@ git cherry-pick [COMMIT ID]
 
 git log --online
 git reset --soft HEAD~1
+
+
+git add --patch
+git reset --mixed HEAD~1
+
 ```
 
 ### 14. Create Patch
