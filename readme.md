@@ -113,6 +113,7 @@ git reset --mixed HEAD~1
 ```
 
 git diff HEAD > diff.patch
+git diff --cached > diff.patch
 
 ```
 
